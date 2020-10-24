@@ -1,0 +1,66 @@
+body {
+    background-color: #37393F;
+    text-align: center;
+    color: white;
+}
+
+#title {
+    font-size: 80px;
+    animation: backInDown;
+    animation-duration: 1500ms;
+}
+
+#short-description {
+    font-size: 30px;
+    animation: backInUp;
+    animation-duration: 1500ms;
+}
+
+
+#link-icon {
+    text-align: center;
+    animation: backInLeft;
+    animation-duration: 1500ms;
+    padding-bottom: 25px;
+    cursor: pointer;
+    fill: white;
+}
+
+#upload-icon {
+    text-align: center;
+    animation: backInRight;
+    animation-duration: 1500ms;
+    cursor: pointer;
+    /* border: 2px solid green; */
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #37393F;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border: 2px solid #2F3136;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+nav {
+    display: table;   /* Allow the centering to work */
+	margin: auto;
+}
+

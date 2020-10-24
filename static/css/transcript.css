@@ -1,0 +1,35 @@
+body {
+  background-color: #37393f;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+#search-query {
+  font-size: 35px;
+  border: 1px solid green;
+  width: 75%;
+  padding: 12px 20px;
+  font-size: 30px;
+  background-color: white;
+  color: black;
+}
+
+#submit-button {
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+form {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}

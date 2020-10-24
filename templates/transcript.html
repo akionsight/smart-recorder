@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/css/transcript.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript page</title>
+</head>
+<body>
+    <form method="POST">
+        <input type="text" name="search-query" id="search-query" placeholder="Find Something....">
+        <input type="submit" value="Submit Query" id="submit-button">
+    </form>
+    {% for i in transcript: %}
+        <h4 class="transcript">{{i['text']}}</h4>
+    {% endfor %}
+    <p hidden id="hidden-transcript">{{raw_text}}</p>
+</body>
+<!-- jquery and some js -->
+<script src="../static/js/jquery.js"></script> 
+<script src="../static/js/index.js"></script>  
+</html>

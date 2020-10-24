@@ -1,0 +1,25 @@
+body {
+    background-color: #37393F;
+    text-align: center;
+    color: white;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#file-upload {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
