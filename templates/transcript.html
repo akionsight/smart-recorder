@@ -7,8 +7,8 @@
     <title>Transcript page</title>
 </head>
 <body>
-    <form method="POST">
-        <input type="text" name="search-query" id="search-query" placeholder="Find Something....">
+    <form method="POST" id="search">
+        <input type="text" name="search-query" id="search-query" placeholder="Find Something...." maxlength="49">
         <input type="submit" value="Submit Query" id="submit-button">
     </form>
     {% for i in transcript: %}
@@ -18,5 +18,6 @@
 </body>
 <!-- jquery and some js -->
 <script src="../static/js/jquery.js"></script> 
-<script src="../static/js/index.js"></script>  
+<!-- <script src="../static/js/index.js"></script>   -->
+<script src="../static/js/prevent_space.js"></script>
 </html>
