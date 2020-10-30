@@ -1,10 +1,14 @@
 $(document).ready(function() {
     $('form').submit(function (e) {
         e.preventDefault();
-        var input_box_content = $('#search-query').val();
-        console.log(input_box_content);
-        var raw_transcript = $('#hidden-transcript').html();
-        console.log(raw_transcript.search(input_box_content))
+        places_where_the_word_is_present = window.places_where_the_word_is_present
+        transcript = $('#raw-transcript').text();
+        var split_words_raw = transcript.split(' ');
+        var split_words = split_words_raw.split(',');
+
+        
+
+
     }) 
 });
 

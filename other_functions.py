@@ -2,6 +2,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import pytube
 import secrets
 import json
+from termcolor import colored, cprint
+import sys
 def get_video_id(url):
     return pytube.extract.video_id(url)
 
@@ -21,9 +23,28 @@ def a_small_engine_for_finding_words(para: str, word_to_find: str):
         word_num = word_num + 1
     return yup
 
-def string_to_json(string):
-    return json.loads(string)
+# def string_to_json(string):
+#     return json.loads(string)
 
+def return_raw_or_text_only_transcript(transcript):
+    text_only_transcript = ''
+    for i in transcript:
+        text_only_transcript = text_only_transcript + i['text'] + ' '
+    return text_only_transcript
+
+def add_mark_tags_wherever_necessary(where_is_the_word_present, para):
+    words = para.split(' ')
+    for i in where_is_the_word_present:
+        words.insert(i, '<mark>')
+        words.insert(i+1 , '</mark>')
+
+    updated_words_in_string = ''
+    for i in words:
+        updated_words_in_string = updated_words_in_string + i + ' '
+    return updated_words_in_string
+
+
+print_red_on_cyan = lambda x: cprint(x, 'red', 'on_cyan')
 
 
             

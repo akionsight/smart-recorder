@@ -2,6 +2,7 @@ body {
     background-color: #37393F;
     text-align: center;
     color: white;
+    overflow: hidden
 }
 
 #title {
