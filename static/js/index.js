@@ -1,15 +1,41 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('form').submit(function (e) {
         e.preventDefault();
-        places_where_the_word_is_present = window.places_where_the_word_is_present
-        transcript = $('#raw-transcript').text();
-        var split_words_raw = transcript.split(' ');
-        var split_words = split_words_raw.split(',');
-
-        
-
-
-    }) 
+        var search_query = $('#search-query').val();
+        let searched = search_query
+        // if (searched !== "") {
+        //     let text = document.getElementById("transcript").innerHTML;
+        //     let re = new RegExp(searched,"g"); // search for all instances
+        //     let newText = text.replace(re, `<mark>${searched}</mark>`);
+        //     document.getElementById("transcript").innerHTML = newText;
+        //     console.log('replaced')
+        // }
+        let text = document.getElementById("transcript");
+        var instance = new Mark(text);
+        instance.unmark();
+        instance.mark(searched, {
+            "accurary": "excatly",
+            "synonyms": {
+                "one": "1",
+                "two": "2",
+                "three": "3",
+                "four": "4",
+                "five": "5",
+                "six": "6",
+                "seven": "7",
+                "eight": "8",
+                "nine": "9",
+                "ten": "10"
+            },
+            "done": function (count) {
+                $("#instances-found")
+                console.log(count);
+            },
+            "noMatch": function (not_found) {
+                console.log('nothing of that sort found');
+                console.log(not_found);
+            }
+        });
+    });
 });
-
 // https://www.youtube.com/watch?v=wxxhuzjT9aM

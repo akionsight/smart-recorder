@@ -56,12 +56,7 @@ def youtube_link_page():
         ### ONLOAD DATA TO SESSION
         session['transcript'] = transcript
         session['TextOnlyTranscript'] = text_only_transcript
-
-        while True:
-            if session.get('transcript') != None:
-                return redirect(url_for('give_transcript'))
-            else:
-                continue
+        return redirect(url_for('give_transcript'))
 
 
 
@@ -73,16 +68,13 @@ def give_transcript():
     raw_transcript = session['TextOnlyTranscript']
     if request.method == 'GET':
 
-        return render_template('transcript.html', transcript=transcript) #transcript=transcript, raw_text=raw_transcript)
+        return render_template('transcript.html', text_only_transcript=raw_transcript) #transcript=transcript, raw_text=raw_transcript)
 
     elif request.method == 'POST':
         search_query = request.form['search-query'] ## get search query
 
         places_where_the_word_is_present = other_functions.a_small_engine_for_finding_words(raw_transcript, search_query)
-
-        text_with_mark_tags = other_functions.add_mark_tags_wherever_necessary(places_where_the_word_is_present, raw_transcript)
-        print(text_with_mark_tags)
-        return render_template('transcript.html', transcript=transcript, vars=places_where_the_word_is_present, text_only_transcript=raw_transcript)
+        return render_template('transcript.html', text_only_transcript=raw_transcript)
         
 
 

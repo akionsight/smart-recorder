@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: white;
   font-size: 25px;
+  line-height: 2.35;
 }
 
 #search-query {
@@ -32,4 +33,15 @@ form {
   position: sticky;
   top: 0;
   font-size: 20px;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+#instances-found {
+  position: sticky;
+  top: 0;
+  left: 0;
 }

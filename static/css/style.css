@@ -7,33 +7,26 @@ body {
 
 #title {
     font-size: 80px;
-    animation: backInDown;
+    animation: backInLeft;
     animation-duration: 1500ms;
 }
 
 #short-description {
     font-size: 30px;
-    animation: backInUp;
+    animation: backInRight;
     animation-duration: 1500ms;
 }
 
 
 #link-icon {
     text-align: center;
-    animation: backInLeft;
+    animation: backInUp;
     animation-duration: 1500ms;
     padding-bottom: 25px;
     cursor: pointer;
     fill: white;
 }
 
-#upload-icon {
-    text-align: center;
-    animation: backInRight;
-    animation-duration: 1500ms;
-    cursor: pointer;
-    /* border: 2px solid green; */
-}
 
 li {
   list-style: none;
@@ -65,3 +58,14 @@ nav {
 	margin: auto;
 }
 
+#up {
+  font-size: 65px;
+  animation: fadeInRightBig;
+  animation-duration: 1500ms;
+}
+
+#up-dsc {
+  font-size: 50px;
+  animation: fadeInLeftBig;
+  animation-duration: 1500ms;
+}
