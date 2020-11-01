@@ -1,7 +1,7 @@
 My (Harsh Pandey aka AkIonSight's) entry for the 2nd Timathon 
 
 # smart-recorder
-Website link: 
+Website link: https://smart-recorder-timathon.herokuapp.com/
 
 Smart recorder allows you to search through audio in an instant. This is especially handy when you have to listen to a 3 or 4 or 5 hour lecture but you don't have time or you are lazy 😂.
 
