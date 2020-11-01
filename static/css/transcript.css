@@ -4,12 +4,13 @@ body {
   color: white;
   font-size: 25px;
   line-height: 2.35;
+  font-family: "Titillium Web", sans-serif;
 }
 
 #search-query {
   font-size: 35px;
   border: 1px solid green;
-  width: 75%;
+  width: 65%;
   padding: 12px 20px;
   font-size: 30px;
   background-color: white;
@@ -25,6 +26,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 form {
@@ -40,8 +42,8 @@ mark {
   color: black;
 }
 
-#instances-found {
-  position: sticky;
-  top: 0;
-  left: 0;
+#back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }

@@ -2,15 +2,8 @@ $(document).ready(function () {
     $('form').submit(function (e) {
         e.preventDefault();
         var search_query = $('#search-query').val();
-        let searched = search_query
-        // if (searched !== "") {
-        //     let text = document.getElementById("transcript").innerHTML;
-        //     let re = new RegExp(searched,"g"); // search for all instances
-        //     let newText = text.replace(re, `<mark>${searched}</mark>`);
-        //     document.getElementById("transcript").innerHTML = newText;
-        //     console.log('replaced')
-        // }
-        let text = document.getElementById("transcript");
+        var searched = search_query
+        var text = document.getElementById("transcript");
         var instance = new Mark(text);
         instance.unmark();
         instance.mark(searched, {

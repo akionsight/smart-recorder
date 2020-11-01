@@ -2,6 +2,7 @@ body {
   background-color: #37393f;
   text-align: center;
   color: white;
+  font-family: "Titillium Web", sans-serif;
 }
 
 #title {
@@ -25,10 +26,5 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-#back-button {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  font-family: "Titillium Web", sans-serif;
 }

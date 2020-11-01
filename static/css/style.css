@@ -1,41 +1,38 @@
-
-
 body {
-    background-color: #37393F;
-    text-align: center;
-    color: white;
-    overflow: hidden;
+  background-color: #37393f;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  font-family: "Titillium Web", sans-serif;
 }
 
 #title {
-    font-size: 80px;
-    animation: backInLeft;
-    animation-duration: 1500ms;
+  font-size: 80px;
+  animation: backInLeft;
+  animation-duration: 1500ms;
 }
 
 #short-description {
-    font-size: 30px;
-    animation: backInRight;
-    animation-duration: 1500ms;
+  font-size: 30px;
+  animation: backInRight;
+  animation-duration: 1500ms;
 }
-
 
 #link-icon {
-    text-align: center;
-    animation: backInUp;
-    padding-bottom: 25px;
-    cursor: pointer;
-    fill: white;
-    animation-duration: 1500ms;
+  text-align: center;
+  animation: backInUp;
+  padding-bottom: 25px;
+  cursor: pointer;
+  fill: white;
+  animation-duration: 1500ms;
 }
-
 
 li {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #37393F;
+  background-color: #37393f;
 }
 
 li {
@@ -48,7 +45,7 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  border: 2px solid #2F3136;
+  border: 2px solid #2f3136;
 }
 
 li a:hover {
@@ -56,10 +53,10 @@ li a:hover {
 }
 
 nav {
-    display: table;   /* Allow the centering to work */
-    margin: auto;
-    animation: backInDown;
-    animation-duration: 1500ms;
+  display: table; /* Allow the centering to work */
+  margin: auto;
+  animation: backInDown;
+  animation-duration: 1500ms;
 }
 
 #up {
@@ -77,4 +74,11 @@ nav {
 
 #up-and-up-dsc {
   line-height: 0;
+  text-decoration: none;
+  color: white;
+  background-color: 37393f;
+}
+
+form {
+  background-color: white;
 }
