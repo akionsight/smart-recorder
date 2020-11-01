@@ -1,8 +1,10 @@
+
+
 body {
     background-color: #37393F;
     text-align: center;
     color: white;
-    overflow: hidden
+    overflow: hidden;
 }
 
 #title {
@@ -21,10 +23,10 @@ body {
 #link-icon {
     text-align: center;
     animation: backInUp;
-    animation-duration: 1500ms;
     padding-bottom: 25px;
     cursor: pointer;
     fill: white;
+    animation-duration: 1500ms;
 }
 
 
@@ -55,12 +57,15 @@ li a:hover {
 
 nav {
     display: table;   /* Allow the centering to work */
-	margin: auto;
+    margin: auto;
+    animation: backInDown;
+    animation-duration: 1500ms;
 }
 
 #up {
-  font-size: 65px;
+  font-size: 50px;
   animation: fadeInRightBig;
+  padding-bottom: 25px;
   animation-duration: 1500ms;
 }
 
@@ -68,4 +73,8 @@ nav {
   font-size: 50px;
   animation: fadeInLeftBig;
   animation-duration: 1500ms;
+}
+
+#up-and-up-dsc {
+  line-height: 0;
 }

@@ -41,17 +41,13 @@ def youtube_link_page():
     elif request.method == 'POST':
         video_url = request.form['url-enter'] ## get video url
 
-        # other_functions.print_red_on_cyan(video_url)
 
         video_id = other_functions.get_video_id(video_url) ## get video id from url
-
-        # other_functions.print_red_on_cyan(video_id)
 
         transcript = other_functions.return_transcript(video_id) ## get transcript 
 
         text_only_transcript = other_functions.return_raw_or_text_only_transcript(transcript) ## get text only transcript 
 
-        # other_functions.print_red_on_cyan(text_only_transcript)
 
         ### ONLOAD DATA TO SESSION
         session['transcript'] = transcript
@@ -68,7 +64,7 @@ def give_transcript():
     raw_transcript = session['TextOnlyTranscript']
     if request.method == 'GET':
 
-        return render_template('transcript.html', text_only_transcript=raw_transcript) #transcript=transcript, raw_text=raw_transcript)
+        return render_template('transcript.html', text_only_transcript=raw_transcript) 
 
     elif request.method == 'POST':
         search_query = request.form['search-query'] ## get search query
