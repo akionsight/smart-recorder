@@ -35,6 +35,7 @@ Smart recorder allows you to search through audio in an instant. This is especia
 
 Check more requirements in [requirements.txt](https://github.com/akionsight/smart-recorder/blob/main/requirements.txt)
 ## Languages supported
+There are a total of **156** languages supported which are
 
 - af ("Afrikaans")
 - sq ("Albanian")
