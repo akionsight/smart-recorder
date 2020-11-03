@@ -3,7 +3,7 @@ My (Harsh Pandey aka AkIonSight's) entry for the 2nd Timathon
 # smart-recorder
 Website link: https://smart-recorder-timathon.herokuapp.com/
 
-Smart recorder allows you to search through audio in an instant. This is especially handy when you have to listen to a 3 or 4 or 5 hour lecture but you don't have time or you are lazy 😂.
+Smart recorder allows you to search through audio in an instant. This is especially handy when you have to listen to a 3 or 4 or 5 hour lecture but you don't have time or you are lazy 😂. This works by generating a transcript for the youtube video and you can **search** through the transcript and only read the part you want.
 
 ## Usage on localhost
 1. Clone the repo
@@ -22,7 +22,7 @@ Smart recorder allows you to search through audio in an instant. This is especia
 
 8. Now the transcript of the video appears
 
-9. Now search certain words or parts spoken in the video with the box on top
+9. Now search certain words or parts spoken in the video with the sticky input box on top
 
 ## Frameworks and libraries used
 1. [Animate.css](https://animate.style/) (Obtained via CDN)
