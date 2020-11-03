@@ -33,6 +33,7 @@ Smart recorder allows you to search through audio in an instant. This is especia
 
 4. [Flask Microframework](https://flask.palletsprojects.com/en/1.1.x/) (To be installed via pip) 
 
+Check more requirements in [requirements.txt](https://github.com/akionsight/smart-recorder/blob/main/requirements.txt)
 ## Languages supported
 
 - af ("Afrikaans")
