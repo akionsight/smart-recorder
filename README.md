@@ -24,6 +24,15 @@ Smart recorder allows you to search through audio in an instant. This is especia
 
 9. Now search certain words or parts spoken in the video with the box on top
 
+## Frameworks and libraries used
+1. [Animate.css](https://animate.style/) (Obtained via CDN)
+
+2. [jQuery](https://jquery.com/) (Included)
+
+3. [Mark.js](https://markjs.io/) (Included)
+
+4. [Flask Microframework](https://flask.palletsprojects.com/en/1.1.x/) (To be installed via pip) 
+
 ## Languages supported
 
 - af ("Afrikaans")
