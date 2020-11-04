@@ -8,6 +8,12 @@ Discord Username: AkIonSight#8281
 
 Smart recorder allows you to search through audio in an instant. This is especially handy when you have to listen to a 3 or 4 or 5 hour lecture but you don't have time or you are lazy 😂. This works by generating a transcript for the youtube video and you can **search** through the transcript and only read the part you want.
 
+## Some test video links
+1. https://www.youtube.com/watch?v=njKP3FqW3Sk (MIT Introduction to Deep Learning | 6.S191) By Alexander Amini
+
+2. https://www.youtube.com/watch?v=bDcfrpbNorw (A Solid 15 Minutes of Useless Information) By AustinMcConnell
+
+3. https://www.youtube.com/watch?v=naGESC9rO38 (The Art of Code - Dylan Beattie) By NDC Conferences
 ## Usage on localhost
 1. Clone the repo
 
@@ -152,4 +158,4 @@ There are a total of **156** languages supported which are:
 - yo ("Yoruba")
 - zu ("Zulu")
 
-Note: this took all of my time during my holidays, like literally working all day long for atleast 20 days, atleast try it once please
+Note: this took all of my time during my holidays, like literally working all day long for atleast 20 days, atleast try it once.
