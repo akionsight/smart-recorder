@@ -48,114 +48,112 @@ Check more requirements in [requirements.txt](https://github.com/akionsight/smar
 ## Languages supported
 There are a total of **156** languages supported which are:
 
-- af ("Afrikaans")
-- sq ("Albanian")
-- am ("Amharic")
-- ar ("Arabic")
-- hy ("Armenian")
-- az ("Azerbaijani")
-- bn ("Bangla")
-- eu ("Basque")
-- be ("Belarusian")
-- bs ("Bosnian")
-- bg ("Bulgarian")
-- my ("Burmese")
-- ca ("Catalan")
-- ceb ("Cebuano")
-- zh-Hans ("Chinese (Simplified)")
-- zh-Hant ("Chinese (Traditional)")
-- co ("Corsican")
-- hr ("Croatian")
-- cs ("Czech")
-- da ("Danish")
-- nl ("Dutch")
-- en ("English")
-- eo ("Esperanto")
-- et ("Estonian")
-- fil ("Filipino")
-- fi ("Finnish")
-- fr ("French")
-- gl ("Galician")
-- ka ("Georgian")
-- de ("German")
-- el ("Greek")
-- gu ("Gujarati")
-- ht ("Haitian Creole")
-- ha ("Hausa")
-- haw ("Hawaiian")
-- iw ("Hebrew")
-- hi ("Hindi")
-- hmn ("Hmong")
-- hu ("Hungarian")
-- is ("Icelandic")
-- ig ("Igbo")
-- id ("Indonesian")
-- ga ("Irish")
-- it ("Italian")
-- ja ("Japanese")
-- jv ("Javanese")
-- kn ("Kannada")
-- kk ("Kazakh")
-- km ("Khmer")
-- rw ("Kinyarwanda")
-- ko ("Korean")
-- ku ("Kurdish")
-- ky ("Kyrgyz")
-- lo ("Lao")
-- la ("Latin")
-- lv ("Latvian")
-- lt ("Lithuanian")
-- lb ("Luxembourgish")
-- mk ("Macedonian")
-- mg ("Malagasy")
-- ms ("Malay")
-- ml ("Malayalam")
-- mt ("Maltese")
-- mi ("Maori")
-- mr ("Marathi")
-- mn ("Mongolian")
-- ne ("Nepali")
-- no ("Norwegian")
-- ny ("Nyanja")
-- or ("Odia")
-- ps ("Pashto")
-- fa ("Persian")
-- pl ("Polish")
-- pt ("Portuguese")
-- pa ("Punjabi")
-- ro ("Romanian")
-- ru ("Russian")
-- sm ("Samoan")
-- gd ("Scottish Gaelic")
-- sr ("Serbian")
-- sn ("Shona")
-- sd ("Sindhi")
-- si ("Sinhala")
-- sk ("Slovak")
-- sl ("Slovenian")
-- so ("Somali")
-- st ("Southern Sotho")
-- es ("Spanish")
-- su ("Sundanese")
-- sw ("Swahili")
-- sv ("Swedish")
-- tg ("Tajik")
-- ta ("Tamil")
-- tt ("Tatar")
-- te ("Telugu")
-- th ("Thai")
-- tr ("Turkish")
-- tk ("Turkmen")
-- uk ("Ukrainian")
-- ur ("Urdu")
-- ug ("Uyghur")
-- uz ("Uzbek")
-- vi ("Vietnamese")
-- cy ("Welsh")
-- fy ("Western Frisian")
-- xh ("Xhosa")
-- yi ("Yiddish")
-- yo ("Yoruba")
-- zu ("Zulu")
-
-Note: this took all of my time during my holidays, like literally working all day long for atleast 20 days, atleast try it once.
+- Afrikaans
+- Albanian
+- Amharic
+- Arabic
+- Armenian
+- Azerbaijani
+- Bangla
+- Basque
+- Belarusian
+- Bosnian
+- Bulgarian
+- Burmese
+- Catalan
+- Cebuano
+- Chinese (Simplified)
+- Chinese (Traditional)
+- Corsican
+- Croatian
+- Czech
+- Danish
+- Dutch
+- English
+- Esperanto
+- Estonian
+- Filipino
+- Finnish
+- French
+- Galician
+- Georgian
+- German
+- Greek
+- Gujarati
+- Haitian Creole
+- Hausa
+- Hawaiian
+- Hebrew
+- Hindi
+- Hmong
+- Hungarian
+- Icelandic
+- Igbo
+- Indonesian
+- Irish
+- Italian
+- Japanese
+- Javanese
+- Kannada
+- Kazakh
+- Khmer
+- Kinyarwanda
+- Korean
+- Kurdish
+- Kyrgyz
+- Lao
+- Latin
+- Latvian
+- Lithuanian
+- Luxembourgish
+- Macedonian
+- Malagasy
+- Malay
+- Malayalam
+- Maltese
+- Maori
+- Marathi
+- Mongolian
+- Nepali
+- Norwegian
+- Nyanja
+- Odia
+- Pashto
+- Persian
+- Polish
+- Portuguese
+- Punjabi
+- Romanian
+- Russian
+- Samoan
+- Scottish Gaelic
+- Serbian
+- Shona
+- Sindhi
+- Sinhala
+- Slovak
+- Slovenian
+- Somali
+- Southern Sotho
+- Spanish
+- Sundanese
+- Swahili
+- Swedish
+- Tajik
+- Tamil
+- Tatar
+- Telugu
+- Thai
+- Turkish
+- Turkmen
+- Ukrainian
+- Urdu
+- Uyghur
+- Uzbek
+- Vietnamese
+- Welsh
+- Western Frisian
+- Xhosa
+- Yiddish
+- Yoruba
+- Zulu
