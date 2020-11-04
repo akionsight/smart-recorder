@@ -1,7 +1,10 @@
 My (Harsh Pandey aka AkIonSight's) entry for the 2nd Timathon 
 
+Discord Username: AkIonSight#8281
 # smart-recorder
-Website link: https://smart-recorder-timathon.herokuapp.com/ or http://bit.ly/smart-recorder-test
+### Website link: https://smart-recorder-timathon.herokuapp.com/ or http://bit.ly/smart-recorder-test
+
+**The Idea behind it:** sometimes you can't seem to find a 5 minute part in a 2 or 3 or 4 hour lecture which you require and you spend most of your time finding out where is that five minute part located or you watch the whole video. This project helps you to find that five minute part and save some hours of a students precious time
 
 Smart recorder allows you to search through audio in an instant. This is especially handy when you have to listen to a 3 or 4 or 5 hour lecture but you don't have time or you are lazy 😂. This works by generating a transcript for the youtube video and you can **search** through the transcript and only read the part you want.
 
@@ -32,6 +35,8 @@ Smart recorder allows you to search through audio in an instant. This is especia
 3. [Mark.js](https://markjs.io/) (Included)
 
 4. [Flask Microframework](https://flask.palletsprojects.com/en/1.1.x/) (To be installed via pip) 
+
+5. [Font: Titillium Web](https://fonts.google.com/specimen/Titillium+Web) (Obtained from CDN via [Google Fonts](https://fonts.google.com/))
 
 Check more requirements in [requirements.txt](https://github.com/akionsight/smart-recorder/blob/main/requirements.txt)
 ## Languages supported
