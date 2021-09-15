@@ -157,3 +157,5 @@ There are a total of **156** languages supported which are:
 - Yiddish
 - Yoruba
 - Zulu
+
+Pheww... that was a lot
