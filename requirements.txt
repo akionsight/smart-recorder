@@ -1,4 +1,3 @@
-pyOpenSSL
 youtube_transcript_api
 Flask_Session
 Flask
